@@ -30,3 +30,17 @@ h1 {
 .nav-pills .nav-link {
   color: white;
 }
+
+@media only screen and (max-width: 576px) {
+  body {
+    background: black;
+  }
+  #header, #main1 {
+    background: url("osman-rana-yM3T1vYh8Oc-unsplash.jpg");
+    background-size: contain;
+    background-attachment: fixed;
+  }
+  #main2 {
+    background-color: black;
+  }  
+}
