@@ -1,0 +1,32 @@
+body {
+  background: url("osman-rana-yM3T1vYh8Oc-unsplash.jpg") no-repeat center fixed;
+  background-size: cover;
+  font-family: 'Share Tech Mono', monospace;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.tab-pane {
+  display: flex;
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+  text-shadow: 1px 1px black;
+}
+
+h1 {
+  padding: 20px;
+}
+
+.nav-pills .nav-link.active {
+  color: black;
+  background: white;
+  cursor: default;
+}
+
+.nav-pills .nav-link {
+  color: white;
+}
