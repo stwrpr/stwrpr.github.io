@@ -1,6 +1,6 @@
 body {
   font-family: 'Share Tech Mono', monospace;
-  background-color: rgb(30, 30, 30);
+  background-color: rgb(10, 10, 10);
 }
 
 p {
@@ -23,7 +23,7 @@ p {
   }
   
   .white {
-    border: 5px solid rgb(225, 225, 225);
+    border: 5px solid rgb(245, 245, 245);
     height: 95vh;
     width: 95vw;
     display: flex;
@@ -53,7 +53,7 @@ p {
   }
   
   .white {
-    border: 5px solid rgb(225, 225, 225);
+    border: 5px solid rgb(245, 245, 245);
     height: 95vh;
     width: 95vw;
     display: flex;
