@@ -1,0 +1,74 @@
+body {
+  font-family: 'Share Tech Mono', monospace;
+  background-color: rgb(30, 30, 30);
+}
+
+p {
+  color: rgb(238, 73, 51);
+  line-height: 1.5;
+
+}
+
+.text {
+  padding: 10px;
+}
+
+@media only screen and (orientation: portrait) {
+  .main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  
+  .white {
+    border: 5px solid rgb(225, 225, 225);
+    height: 95vh;
+    width: 95vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+  }
+  
+  .blue {
+    border: 5px solid rgb(0, 174, 253);
+    height: 45vh;
+    width: 90vw;
+}
+p {
+  font-size: 3.25vw;
+}
+}
+
+@media only screen and (orientation: landscape) {
+  .main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  
+  .white {
+    border: 5px solid rgb(225, 225, 225);
+    height: 95vh;
+    width: 95vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+  }
+  
+  .blue {
+    border: 5px solid rgb(0, 174, 253);
+    height: 90vh;
+    width: 45vw;
+  }
+
+  p {
+    font-size: 2vw;
+  }
+}
